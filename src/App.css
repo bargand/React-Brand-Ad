@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   max-width: 1280px;
@@ -18,7 +18,7 @@ nav{
   align-items: center;
   list-style: none;
 }
-nav ul{
+nav ul {
   display: flex;
   list-style: none;
   gap: 24px;
@@ -27,9 +27,8 @@ nav ul{
   text-decoration: none;
   color: #000;
   font-weight: 500;
-
 }
-button{
+button {
   cursor: pointer;
   all: unset;
   background: #d01c24;
@@ -38,50 +37,44 @@ button{
   height: 32px;
   font-weight: 500;
 }
-.main{
+.main {
   display: flex;
   max-width: 1150px;
   height: 100%;
   margin: 0 auto;
-
 }
-.mainLeft{
+.mainLeft {
   width: 50%;
   height: 100%;
   /* background-color: red; */
 }
-.mainLeft h1{
+.mainLeft h1 {
   font-size: 100px;
   line-height: 95px;
   padding: 10px;
 }
-.mainLeft p{
+.mainLeft p {
   padding: 10px;
   font-size: 15px;
 }
-.buttonM{
+.buttonM {
   cursor: pointer;
   padding: 10px;
   display: flex;
   gap: 24px;
 }
-.buttonM .button2{
+.buttonM .button2 {
   background: transparent;
   border: 1px solid black;
   color: #000;
-
 }
-.ImagesM{
+.ImagesM {
   padding: 10px;
   display: flex;
   gap: 24px;
 }
 
-
-
-
-
-.mainRight{
+.mainRight {
   width: 50%;
   height: 100%;
   display: flex;
@@ -89,6 +82,6 @@ button{
   justify-content: center;
   align-items: center;
 }
-.mainRight img{
+.mainRight img {
   width: 550px;
 }
